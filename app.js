@@ -90,19 +90,19 @@
   var VISUAL_DETAILS = {
     all: {
       title: 'Rangkuman Bukti Visual',
-      body: 'Ketiga hal visual tadi muncul bersamaan di layar. Masakan rumahan, celemek, senyum lembut, dan cahaya ruangan yang hangat dipakai untuk menunjukkan bahwa kehadiran perempuan membawa kerapian di rumah.'
+      body: 'Dari satu potongan adegan memasak ini saja, tiga hal langsung terlihat bersamaan: keahlian Mahiru memakai wajan tamagoyaki, ekspresinya yang tenang, serta celemek berenda dengan pencahayaan hangat yang menguatkan gambaran perempuan feminin di dapur.'
     },
     food: {
-      title: 'Pin 1: Makanan Rumahan & Celemek',
-      body: 'Bukti yang paling gampang dilihat ada pada sorotan kamera ke makanan rumahan yang tertata rapi, uap hangat dari mangkuk, dan celemek yang dipakai Mahiru saat memasakkan Amane.'
+      title: 'Pin 1: Wajan Tamagoyaki & Sumpit Masak',
+      body: 'Mahiru terlihat cekatan membalik telur dadar gulung (tamagoyaki) memakai wajan khusus dan sumpit masak kayu. Detail ini langsung menegaskan gambaran bahwa perempuan muda dianggap terampil memasak makanan rumahan.'
     },
     gesture: {
-      title: 'Pin 2: Sikap & Ekspresi Lembut',
-      body: 'Mahiru terlihat tenang dengan tatapan lembut sambil memastikan Amane makan dengan benar. Sikap tubuh yang melayani ini membuat pekerjaan dapur terlihat ringan dan manis.'
+      title: 'Pin 2: Ekspresi Tenang & Rambut Rapi',
+      body: 'Wajah Mahiru tetap tenang dan lembut saat memasak, sementara rambutnya diikat rapi ke belakang. Cara ini membuat pekerjaan dapur terasa ringan, alami, dan sudah melekat pada dirinya.'
     },
     lighting: {
-      title: 'Pin 3: Suasana Kamar Jadi Hangat',
-      body: 'Apartemen Amane yang tadinya tampak suram dan berantakan langsung digambarkan lebih terang dan hangat begitu masakan Mahiru tersaji. Perubahan suasana ini seakan menyamakan perempuan dengan kenyamanan rumah.'
+      title: 'Pin 3: Celemek Berenda & Nuansa Hangat',
+      body: 'Celemek putih berenda, kardigan merah muda pastel, dan cahaya dapur yang hangat memberi kesan manis serta keibuan. Tampilan seperti ini ikut memperkuat stereotip perempuan ideal yang merawat urusan makan di rumah.'
     }
   };
 
@@ -626,12 +626,6 @@
       var id = pin.getAttribute('data-visual-pin');
       pin.addEventListener('click', function () {
         selectVisual(id);
-      });
-      pin.addEventListener('keydown', function (event) {
-        if (event.key === 'Enter' || event.key === ' ') {
-          event.preventDefault();
-          selectVisual(id);
-        }
       });
     })(visualPins[v]);
   }

@@ -85,13 +85,11 @@ section:focus-visible {
   outline-offset: 3px;
 }
 
-.norm-node:focus,
-.visual-pin:focus {
+.norm-node:focus {
   outline: none;
 }
 
-.norm-node:focus-visible .norm-ring,
-.visual-pin:focus-visible .pin-circle {
+.norm-node:focus-visible .norm-ring {
   stroke: var(--ochre);
   stroke-width: 5.5;
 }
@@ -1034,12 +1032,13 @@ html:fullscreen {
 }
 
 .concept-svg-wrap,
-.visual-svg-wrap {
+.visual-photo-wrap {
   flex: 1 1 auto;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 0;
+  padding: 12px 4px 10px;
 }
 
 .concept-svg {
@@ -1049,35 +1048,122 @@ html:fullscreen {
   height: auto;
 }
 
-.visual-svg {
+.visual-photo-frame {
+  position: relative;
+  margin: 0;
   width: 100%;
-  max-width: 560px;
-  max-height: 375px;
-  height: auto;
+  max-width: 570px;
+  background: var(--surface);
+  padding: 10px;
+  border: 2.5px solid var(--ink);
+  border-radius: 6px;
+  box-shadow: 4px 4px 0 var(--ink);
 }
 
-.norm-node,
-.visual-pin {
+.photo-tape {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  width: 112px;
+  height: 24px;
+  margin-left: -56px;
+  background: rgba(232, 184, 73, 0.92);
+  border: 2px solid var(--ink);
+  border-radius: 2px;
+  transform: rotate(-1.6deg);
+  z-index: 3;
+  pointer-events: none;
+}
+
+.visual-scene-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+  border: 1.5px solid var(--ink);
+}
+
+.norm-node {
   cursor: pointer;
   transition: transform 220ms var(--ease-out), opacity 180ms ease;
   transform-box: fill-box;
   transform-origin: center;
 }
 
-.norm-node.is-selected,
-.visual-pin.is-selected {
+.norm-node.is-selected {
   transform: scale(1.06);
 }
 
-.norm-node.is-dimmed,
-.visual-pin.is-dimmed {
+.norm-node.is-dimmed {
   opacity: 0.48;
 }
 
-.norm-node.is-selected .norm-ring,
-.visual-pin.is-selected .pin-circle {
+.norm-node.is-selected .norm-ring {
   stroke: var(--ochre);
   stroke-width: 5;
+}
+
+.visual-pin {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  display: grid;
+  place-items: center;
+  z-index: 4;
+  transition: transform 200ms var(--ease-out), opacity 180ms ease;
+}
+
+.pin-1 {
+  left: 73%;
+  top: 52%;
+}
+
+.pin-2 {
+  left: 19%;
+  top: 34%;
+}
+
+.pin-3 {
+  left: 36%;
+  top: 82%;
+}
+
+.pin-badge {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 2.5px solid var(--paper);
+  box-shadow: 0 0 0 2.5px var(--ink), 2px 3px 0 rgba(30, 36, 48, 0.45);
+  display: grid;
+  place-items: center;
+  font-size: 15px;
+  font-weight: 800;
+  transition: transform 180ms var(--ease-out), box-shadow 180ms ease;
+}
+
+.visual-pin:hover .pin-badge {
+  transform: scale(1.1);
+}
+
+.visual-pin.is-selected .pin-badge {
+  transform: scale(1.16);
+  box-shadow: 0 0 0 3px var(--ochre), 0 0 0 5.5px var(--ink);
+}
+
+.visual-pin.is-dimmed {
+  opacity: 0.52;
+}
+
+.visual-pin:focus-visible {
+  outline: none;
+}
+
+.visual-pin:focus-visible .pin-badge {
+  box-shadow: 0 0 0 3px var(--ochre), 0 0 0 6px var(--navy-deep);
 }
 
 .map-caption,
@@ -1180,6 +1266,7 @@ html:fullscreen {
   font-size: 13.5px;
   line-height: 1.42;
   color: var(--muted);
+  transition: color var(--t-hover) ease;
 }
 
 .norm-card.is-selected > div > span:last-child,
