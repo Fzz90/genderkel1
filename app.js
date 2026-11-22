@@ -51,58 +51,58 @@
 
   var SCENE_DETAILS = {
     trigger: {
-      title: '01. Pertolongan Sederhana yang Memicu Rasa Berutang',
-      body: 'Kisah bermula saat Amane meminjamkan payungnya kepada Mahiru yang duduk sendirian di bawah hujan, lalu Amane sendiri jatuh sakit dan kesulitan mengurus makan di apartemennya yang berantakan. Bagi Mahiru, kebaikan kecil itu melahirkan dorongan kuat untuk segera membalas.'
+      title: '01. Awal Mula Pertolongan',
+      body: 'Ceritanya dimulai saat Amane meminjamkan payungnya ke Mahiru yang duduk sendirian waktu hujan. Tidak lama setelah itu, Amane sakit dan kesusahan mengurus makan di apartemennya yang berantakan. Dari situ, Mahiru merasa perlu membalas kebaikan Amane.'
     },
     ongaeshi: {
-      title: '02. Memasak sebagai Wujud Balas Budi (Ongaeshi)',
-      body: 'Untuk membalas pertolongan itu, Mahiru memilih membuatkan makanan rumahan yang layak dan bergizi bagi Amane. Praktik balas budi yang seharusnya netral gender langsung diwujudkan lewat keterampilan dapur dan perhatian personal.'
+      title: '02. Balas Budi Lewat Masakan',
+      body: 'Untuk membalas budi, Mahiru memilih membuatkan masakan rumahan yang sehat buat Amane. Padahal banyak cara lain untuk berterima kasih, tapi di adegan ini balas budinya langsung diwujudkan lewat urusan dapur.'
     },
     domestic: {
-      title: '03. Bergeser Menjadi Rutinitas Ruang Privat',
-      body: 'Berawal dari satu kali berbagi masakan, aktivitas tersebut berkembang menjadi kebiasaan harian di apartemen Amane. Kehadiran Mahiru kemudian terikat erat dengan perawatan makan, keteraturan ruang tinggal, dan kenyamanan Amane.'
+      title: '03. Jadi Kebiasaan Harian',
+      body: 'Awalnya cuma sekali berbagi makanan, lama-lama masak buat Amane malah jadi rutinitas harian di apartemen. Akhirnya, peran Mahiru di cerita terus berputar di soal menyiapkan makan dan merapikan kebutuhan Amane.'
     }
   };
 
   var NORM_DETAILS = {
     all: {
-      title: 'Ringkasan Norma Gender yang Muncul',
+      title: 'Ringkasan Norma Gender',
       tag: '3 Poin Utama',
-      body: 'Mahiru ditampilkan piawai memasak dan memilih membalas budi lewat hidangan rumahan sederhana. Pola ini menggemakan ideologi ryousai kenbo dan mengarahkan praktik ongaeshi Jepang ke kerja domestik perempuan.'
+      body: 'Mahiru digambarkan pintar memasak dan memilih membalas budi dengan masakan rumahan sederhana. Pola ini nyambung dengan paham ryousai kenbo dan mengarahkan kebiasaan balas budi Jepang (ongaeshi) ke pekerjaan rumah.'
     },
     ryousai: {
-      title: 'Keterkaitan dengan Ideologi Ryousai Kenbo (良妻賢母)',
-      tag: 'Ideologi Meiji',
-      body: 'Ryousai kenbo ("istri yang baik dan ibu yang bijaksana") menempatkan perempuan sebagai penjaga gizi, ketertiban, dan keharmonisan rumah tangga. Meski Mahiru masih siswi SMA, cara ia mengatur makan Amane dengan penuh kesabaran menghidupkan kembali cetak biru ideal domestik tersebut.'
+      title: 'Paham Ryousai Kenbo (良妻賢母)',
+      tag: 'Aturan Lama',
+      body: 'Di Jepang sejak era Meiji ada paham ryousai kenbo, yang artinya perempuan ideal adalah istri yang baik dan ibu yang bijaksana. Walaupun Mahiru masih anak SMA, sikapnya yang sabar mengatur makanan dan mengurus Amane masih mengikuti gambaran istri idaman tersebut.'
     },
     ongaeshi: {
-      title: 'Praktik Balas Budi (Ongaeshi) yang Digenderisasi',
+      title: 'Cara Balas Budi (Ongaeshi)',
       tag: 'Budaya Jepang',
-      body: 'Dalam masyarakat Jepang, ongaeshi dan okaeshi adalah etika membalas kebaikan yang berlaku bagi siapa saja. Namun dalam adegan ini, cara balas budi yang ditampilkan pantas bagi perempuan dipersempit menjadi layanan sederhana di dapur yang bersifat personal dan tak berbayar.'
+      body: 'Di masyarakat Jepang, membalas kebaikan (ongaeshi dan okaeshi) sebenarnya berlaku untuk siapa saja. Tapi di adegan ini, cara balas budi yang dianggap cocok untuk perempuan justru dipersempit jadi melayani lewat masakan rumahan yang sederhana.'
     },
     cooking: {
-      title: 'Asimetri Keterampilan Memasak Antar Gender',
+      title: 'Perempuan Dianggap Harus Bisa Masak',
       tag: 'Temuan Kelompok 1',
-      body: 'Perempuan diasumsikan wajar dan terampil memasak dengan baik sejak remaja, sedangkan laki-laki (Amane) dimaklumi ketika tidak mampu menyiapkan makanan sehat sendiri. Memasak ditampilkan sebagai penanda feminitas, bukan keterampilan hidup dasar semua orang.'
+      body: 'Perempuan sejak muda seolah otomatis harus bisa memasak dengan baik. Sebaliknya, laki-laki seperti Amane dianggap wajar saja kalau tidak bisa masak makanan sehat sendiri. Jadi, memasak masih ditempelkan sebagai tugas perempuan.'
     }
   };
 
   var VISUAL_DETAILS = {
     all: {
-      title: 'Pembacaan Semiotika Visual Keseluruhan',
-      body: 'Tiga tanda visual tersebut bekerja bersamaan: kamera menempatkan masakan rumahan, celemek, gestur lembut, dan cahaya hangat di sekitar Mahiru sebagai simbol keteraturan dan perawatan feminin.'
+      title: 'Rangkuman Bukti Visual',
+      body: 'Ketiga hal visual tadi muncul bersamaan di layar. Masakan rumahan, celemek, senyum lembut, dan cahaya ruangan yang hangat dipakai untuk menunjukkan bahwa kehadiran perempuan membawa kerapian di rumah.'
     },
     food: {
-      title: 'Pin 1: Sajian Makanan Rumahan & Atribut Celemek',
-      body: 'Bukti visual paling langsung dari catatan Kelompok 1 muncul lewat sorotan kamera pada makanan rumahan yang tertata rapi, uap hangat dari mangkuk, serta celemek yang dikenakan Mahiru saat menyiapkan hidangan untuk Amane.'
+      title: 'Pin 1: Makanan Rumahan & Celemek',
+      body: 'Bukti yang paling gampang dilihat ada pada sorotan kamera ke makanan rumahan yang tertata rapi, uap hangat dari mangkuk, dan celemek yang dipakai Mahiru saat memasakkan Amane.'
     },
     gesture: {
-      title: 'Pin 2: Bahasa Tubuh, Senyum, & Gestur Melayani',
-      body: 'Postur Mahiru yang tenang, tatapan lembut, dan cara ia memastikan Amane makan dengan baik memperkuat citra perempuan pengasuh. Gestur tersebut membuat kerja domestik terlihat ringan dan alami.'
+      title: 'Pin 2: Sikap & Ekspresi Lembut',
+      body: 'Mahiru terlihat tenang dengan tatapan lembut sambil memastikan Amane makan dengan benar. Sikap tubuh yang melayani ini membuat pekerjaan dapur terlihat ringan dan manis.'
     },
     lighting: {
-      title: 'Pin 3: Kontras Ruang & Pencahayaan Hangat',
-      body: 'Apartemen Amane yang awalnya redup dan kurang terurus berubah tampak hangat saat makanan buatan Mahiru tersaji di meja. Kontras visual ini mengasosiasikan kehadiran perempuan secara langsung dengan keteraturan ruang domestik.'
+      title: 'Pin 3: Suasana Kamar Jadi Hangat',
+      body: 'Apartemen Amane yang tadinya tampak suram dan berantakan langsung digambarkan lebih terang dan hangat begitu masakan Mahiru tersaji. Perubahan suasana ini seakan menyamakan perempuan dengan kenyamanan rumah.'
     }
   };
 
